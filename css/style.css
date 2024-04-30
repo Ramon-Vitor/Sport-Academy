@@ -7,8 +7,11 @@
 body{
     border: 0;
     font-family:'Oswald', sans-serif ;
-    background-color: lightgray;
+    background-image: url(../img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 .cabecalho{
     background-color: #051119;
