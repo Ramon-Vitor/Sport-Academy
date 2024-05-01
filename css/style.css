@@ -7,7 +7,7 @@
 body{
     border: 0;
     font-family:'Oswald', sans-serif ;
-    background-image: url(../img/fundo.jpg);
+    background-image: url(../img/Fundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -87,26 +87,31 @@ body{
 }
 
 .destaque{
-    background-color: #f50a31;
+    background-color: #E48743;
     color: #eee;
 }
 
-
-
-@media(min-width:679px){
-    .menu-toggle{
-        display: none;
-    }
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-@media(max-width:680px){
-    .menu{
-        display: none;
-    }
+main h1 {
+    font-size: 100px;
+    color: #eee;
+    font-weight: bold;
 }
 
-@media(max-width:915px){
-    .autenticacao{
-        display: none;
-    }
+main h2{
+    font-size: 80px;
+    color: #E48743;
+    font-weight: bold;
+}
+
+main p{
+    font-size: 50px;
+    color: #eee;
+    font-weight: bold;
 }
